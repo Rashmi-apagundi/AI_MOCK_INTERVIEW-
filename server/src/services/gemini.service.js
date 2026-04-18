@@ -47,7 +47,7 @@ For coding questions with codeType "fix" or "explain", include a codeSnippet and
 
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-2.0-flash',
+      model: 'gemini-1.5-flash',
       contents: prompt,
     });
 
@@ -92,7 +92,7 @@ Return ONLY a valid JSON object (no markdown, no code fences):
 
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-2.0-flash',
+      model: 'gemini-1.5-flash',
       contents: prompt,
     });
 
@@ -135,7 +135,7 @@ Return ONLY a valid JSON object (no markdown, no code fences):
 
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-2.0-flash',
+      model: 'gemini-1.5-flash',
       contents: prompt,
     });
 
@@ -184,7 +184,7 @@ Return ONLY a valid JSON object (no markdown, no code fences):
 
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-2.0-flash',
+      model: 'gemini-1.5-flash',
       contents: prompt,
     });
 
