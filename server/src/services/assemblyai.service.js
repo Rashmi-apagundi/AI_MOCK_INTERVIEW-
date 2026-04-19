@@ -24,6 +24,7 @@ export const transcribeAudio = async (audioBuffer) => {
     // Create transcription
     const transcript = await client.transcripts.transcribe({
       audio_url: uploadUrl,
+      speech_models: ['universal-2']
     });
 
     if (transcript.status === 'error') {
